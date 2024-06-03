@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #061C30;
+    height: 100px;
+    display:flex;
+    justify-content: center;
+}
+
+li {
+    padding-left: 50px;
+    float: left;
+}
+  
+a{
+    color: aliceblue;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+}
+
+body{
+    background-color: #ACB1B7;
+}
+
+.container {
+    display: flex;
+    height: 100vh; 
+}
+
+.image {
+    flex: 1;
+    background: url('C:/Users/den/Documents/nathan site/NathanWalkerPT/Assets/pexels-victorfreitas-791763.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.text {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.text-content {
+    max-width: 600px;
+}

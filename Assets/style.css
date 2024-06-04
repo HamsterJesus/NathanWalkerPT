@@ -1,7 +1,20 @@
 *{
     margin: 0;
+    padding: 0;
+
     font-family: 'Courier New', Courier, monospace;
 }
+
+
+
+body{
+    margin: auto;
+    height: auto;
+    overflow: hidden;
+    background-color: #ACB1B7;
+}
+
+/*----------------------------- nav bar */
 
 ul {
     list-style-type: none;
@@ -9,7 +22,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #061C30;
-    height: 100px;
+    height: 75px;
     display:flex;
     justify-content: center;
 }
@@ -22,13 +35,12 @@ li {
 a{
     color: aliceblue;
     display: block;
-    padding: 20px;
+    padding: 30px;
     text-decoration: none;
 }
 
-body{
-    background-color: #ACB1B7;
-}
+
+/*---------------------------------- about me */
 
 .container {
     display: flex;
@@ -51,4 +63,36 @@ body{
 
 .text-content {
     max-width: 600px;
+}
+
+
+/* ------------------------------pricing */
+
+#pricing-buttons{
+    /* background-color: aquamarine; */
+    width: 600px;
+    justify-content: flex-start;
+    padding-right: 50px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#pricing-buttons button{
+    display: block;
+    border: none;
+    height: 70px;
+    width: 300px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: medium;
+}
+
+.pricing-buttons-content{
+}
+
+#pricing-info{
+    justify-content: flex-start;
 }

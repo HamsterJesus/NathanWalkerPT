@@ -69,7 +69,6 @@ a{
 #pricing-buttons{
     /* background-color: aquamarine; */
     width: 600px;
-    justify-content: flex-start;
     padding-right: 50px;
     padding-left: 50px;
     display: flex;
@@ -88,8 +87,23 @@ a{
 }
 
 .pricing-buttons-content{
+
 }
 
 #pricing-info{
-    justify-content: flex-start;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pricing-info-btn{
+    width: 520px;
+    height: 400px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

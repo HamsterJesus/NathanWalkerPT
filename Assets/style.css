@@ -91,19 +91,22 @@ a{
 }
 
 #pricing-info{
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
+    text-align: center;
     align-items: center;
+    /* justify-content: center; */
+    /* display: flex; */
+    /* flex-direction: row;
+    align-items: center; */
 }
 
 .pricing-info-btn{
+    display: inline-block;
     width: 520px;
     height: 400px;
     background-color: aquamarine;
     border-radius: 10px;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }

@@ -10,6 +10,7 @@ body{
     height: auto;
     overflow: hidden;
     background-color: #ACB1B7;
+    color: white;
 }
 
 /*----------------------------- nav bar */
@@ -72,6 +73,11 @@ a{
 
 /* ------------------------------pricing */
 
+
+#pricing-body{
+    background-color: #111C27;
+}
+
 #pricing-button-area{
     /* background-color: aquamarine; */
     width: 600px;
@@ -90,6 +96,12 @@ a{
     border-radius: 5px;
     text-decoration: none;
     font-size: medium;
+    color: white;
+    background-color: #6e869b;
+}
+
+#pricing-button-area button:hover{
+    background-color: #4F6171;
 }
 
 .pricing-button{
@@ -111,13 +123,15 @@ a{
     align-items: center; */
 }
 
-.pricing-info-btn{
-    display: inline-block;
+.pricing-info-box{
     width: 520px;
     height: 400px;
-    background-color: aquamarine;
+    background-color: #4F6171;
     border-radius: 10px;
-    /* display: flex; */
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    margin: 10px;
 }

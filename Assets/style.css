@@ -37,6 +37,12 @@ a{
     text-decoration: none;
 }
 
+.box-logo{
+    background-color: blue;
+    width:200px;
+    width:100px;
+}
+
 
 /*---------------------------------- about me */
 
@@ -66,7 +72,7 @@ a{
 
 /* ------------------------------pricing */
 
-#pricing-buttons{
+#pricing-button-area{
     /* background-color: aquamarine; */
     width: 600px;
     padding-right: 50px;
@@ -76,7 +82,7 @@ a{
     justify-content: center;
 }
 
-#pricing-buttons button{
+#pricing-button-area button{
     display: block;
     border: none;
     height: 70px;
@@ -86,11 +92,17 @@ a{
     font-size: medium;
 }
 
-.pricing-buttons-content{
+.pricing-button{
+    padding-bottom: 10px;
+}
 
+.pricing-buttons-content{
+    padding-top: 20px;
+    width:500px;
 }
 
 #pricing-info{
+    display: flex;
     text-align: center;
     align-items: center;
     /* justify-content: center; */

@@ -105,8 +105,7 @@ a{
     height: 400px;
     background-color: aquamarine;
     border-radius: 10px;
-    /* display: flex;
-    flex-direction: column;
+    /* display: flex; */
     justify-content: center;
-    align-items: center; */
+    align-items: center;
 }

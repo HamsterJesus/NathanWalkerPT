@@ -16,6 +16,7 @@ body{
 body h1{
     font-family:"Koulen";
     font-size: 60px;
+    font-weight: normal;
 }
 
 
@@ -64,6 +65,22 @@ a{
     background-size: cover;
 }
 
+.about-me-image {
+    width:460px;
+    height:620px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 100px 20px;
+}
+
+.about-me-image img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .text {
     flex: 1;
     display: flex;
@@ -72,10 +89,38 @@ a{
     padding: 20px;
 }
 
-.text-content {
+.About-text-content {
     max-width: 600px;
 }
 
+.About-text-content h1{
+    line-height: 1;
+ }
+
+ .About-text-content hr{
+    width: 50%;
+    border: 2.5px #214C79 solid;
+ }
+
+ .About-text-content p{
+    padding:10px 0px;
+ }
+
+ #top-about-p{
+    padding-top: 40px;
+ }
+ 
+ #bottom-about-p{
+    padding-bottom: 30px;
+ }
+
+ .about-me-btn {
+    background-color: #214C79;
+    padding: 15px 60px;
+    border-radius: 40px;
+    color: white;
+    border-style: none;
+ }
 
 /* ------------------------------pricing */
 

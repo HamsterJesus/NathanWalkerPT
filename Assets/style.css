@@ -66,19 +66,21 @@ a{
 }
 
 .about-me-image {
-    width:460px;
-    height:620px;
+    width:560px;
+    height:670px;
     flex: 1;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 100px 20px;
+    padding: 100px 0px;
 }
 
 .about-me-image img {
     width: 50%;
     height: 100%;
     object-fit: cover;
+    filter: grayscale();
+    opacity: 65%;
 }
 
 .text {
@@ -103,7 +105,7 @@ a{
  }
 
  .About-text-content p{
-    padding:10px 0px;
+    padding:10px;
  }
 
  #top-about-p{
@@ -154,6 +156,11 @@ a{
     color: white;
     background-color: #6e869b;
 }
+
+#pricing-button-area h3{
+    color:#1873BD;
+}
+
 
 #pricing-button-area button:hover{
     background-color: #4F6171;

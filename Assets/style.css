@@ -54,6 +54,10 @@ a{
 
 /*---------------------------------- home */
 
+#home-body{
+    min-height: 100%;
+    background-image: url("images/pexels-victorfreitas-791763.jpg");
+}
 
 #home-cont{
     width: 700px;
@@ -78,6 +82,19 @@ a{
     border-radius: 40px;
     color: white;
     border-style: none;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+  
+  
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
 }
 
 

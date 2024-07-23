@@ -122,7 +122,7 @@ a{
 }
 
 .about-me-image img {
-    width: 50%;
+    width: 90%;
     height: 100%;
     object-fit: cover;
     filter: grayscale();

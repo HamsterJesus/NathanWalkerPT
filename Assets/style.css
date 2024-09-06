@@ -61,7 +61,7 @@ a{
 
 .image {
     flex: 1;
-    background: url('C:/Users/den/Documents/nathan site/NathanWalkerPT/Assets/pexels-victorfreitas-791763.jpg') no-repeat center center;
+    background: url('../Assets/pexels-victorfreitas-791763.jpg') no-repeat center center;
     background-size: cover;
 }
 
